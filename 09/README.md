@@ -1,0 +1,24 @@
+# System-Programmierung
+## Lektion 9: Sockets
+- [Slides](http://www.tamberg.org/fhnw/2024/hs/Syspr09Sockets.pdf)
+
+## Beispiele
+### UNIX Domain Datagram Sockets
+- [ud_ucase.h](http://man7.org/tlpi/code/online/book/sockets/ud_ucase.h.html)<sup>TLPI</sup>
+- [ud_ucase_cl.c](http://man7.org/tlpi/code/online/book/sockets/ud_ucase_cl.c.html)<sup>TLPI</sup>
+- [ud_ucase_sv.c](http://man7.org/tlpi/code/online/book/sockets/ud_ucase_sv.c.html)<sup>TLPI</sup>
+### UNIX Domain Stream Sockets
+- [us_xfr.h](http://man7.org/tlpi/code/online/book/sockets/us_xfr.h.html)<sup>TLPI</sup>
+- [us_xfr_cl.c](http://man7.org/tlpi/code/online/book/sockets/us_xfr_cl.c.html)<sup>TLPI</sup>
+- [us_xfr_sv.c](http://man7.org/tlpi/code/online/book/sockets/us_xfr_sv.c.html)<sup>TLPI</sup>
+### Internet Domain Datagram Sockets
+- [i6d_ucase.h](http://man7.org/tlpi/code/online/book/sockets/i6d_ucase.h.html)<sup>TLPI</sup>
+- [i6d_ucase_cl.c](http://man7.org/tlpi/code/online/book/sockets/i6d_ucase_cl.c.html)<sup>TLPI</sup>
+- [i6d_ucase_sv.c](http://man7.org/tlpi/code/online/book/sockets/i6d_ucase_sv.c.html)<sup>TLPI</sup>
+
+## Hands-on
+- TODO
+
+## Lösungsvorschlag
+- [http_client.c](http_client.c)
+- [http_server.c](http_server.c)
