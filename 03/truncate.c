@@ -1,4 +1,4 @@
-//#define _XOPEN_SOURCE 500
+#define _XOPEN_SOURCE 500
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -29,7 +29,7 @@ int main(void) {
         }
         i++;
     }
-    int result = ftruncate(fd, 7);
+    int result = ftruncate(fd, 10); // -rw------- 1 debian debian    10 (Size in bytes) Apr 18 21:18 truncate.txt
     if (result == -1) {
         error("ftruncate");
     }
