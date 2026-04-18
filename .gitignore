@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# Un-ignore your source code
+!*.c
+!*.h
+!*.cpp
+!*.hpp
+!Makefile
+!makefile
+!.gitignore
+!*.md
+
+# Explicitly ignore PDFs (even if not caught by the wildcard above)
+*.pdf
