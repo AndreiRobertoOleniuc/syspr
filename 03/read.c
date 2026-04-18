@@ -13,10 +13,10 @@ int main(int argc, char *argv[]) {
 
     int n = 32;
     char buf[n]; // allocated on stack
-    ssize_t r = read(fd, buf, n);
+    ssize_t r = read(fd, buf, n); // returns number of bytes read, or -1 on error, or 0 on end of file
     while (r > 0) {
-        write(STDOUT_FILENO, buf, r);
-        r = read(fd, buf, n);
+        write(STDOUT_FILENO, buf, r); // writes to STDOUT_FILENO, which is 1 and takes in the buffer and the number of bytes to write
+        r = read(fd, buf, n); // read the next chunk of data
     }
     if (r == -1) {
         perror("read"); // reads errno
